@@ -2,6 +2,9 @@ Register
 then Login
 then Index
 
+Aim od the project:
+Not allowing single page to reload multiple times so as to avoid annoying user[ will use ajax for that]
+
 Register functionaliy:
 Strong password
 email valdiation
