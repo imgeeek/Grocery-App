@@ -1,0 +1,11 @@
+Register
+then Login
+then Index
+
+Register functionaliy:
+Strong password
+email valdiation
+password must be same
+name should not have any unique character
+
+when submission is done, user should get a private code in gmail that allows him to add people. for example if sisir wants to add sandesh, sandesh will give sisir the code, that lets him to add.
