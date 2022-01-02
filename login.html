@@ -3,10 +3,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Register</title>
     <link rel="stylesheet" href="stylesheets/style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <header>
+            <div class="nav">
+            <ul>
+                <li>Grocery App</li>
+                <li class="home"><a href="#">Home</a></li>
+                <li class="tutorials"><a class="active" href="#">Register</a></li>
+            </ul>
+            </div>
+        </header>
+    </div>
+    <div>Welcome Back</div>
+    <div>Lets Log you back in</div>
+    <div>Don't have an account? <a href="#">Sign Up</a></div>
+    <form action="/action_page.php">
+        <input type="text" id="email" name="email">
+        <input type="password" id="password" name="password">
+        <input type="reset">
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
