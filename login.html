@@ -5,27 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
     <link rel="stylesheet" href="stylesheets/style.css">
+    
 </head>
 <body>
     <div class="container">
-        <header>
-            <div class="nav">
-            <ul>
-                <li>Grocery App</li>
-                <li class="home"><a href="#">Home</a></li>
-                <li class="tutorials"><a class="active" href="#">Register</a></li>
-            </ul>
+      <nav>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#">Grocery App<Span>.</Span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="register.html">Register</a>
+          </li>
+          <li class="nav-item">
+            <a href='login.html'><button class="btn-primary">Log in</button></a>
+          </li>
+        </ul>
+      </nav>
+      <div class='page-content'>
+        <div class='content1'>Hello,</div>
+        <div class='content2'>Welcome to Grocery App<span>.</span></div>
+        <div class='content3'>Do not have an account? <a href="register.html">Register</a></div>
+
+        <form action="/action_page.php">
+            
+            <div class='grid-colspan-2 form-group'>
+              <input  class='form-control' type="text" id="email" name="email" placeholder="Your Email">
+              <label for='email' class='form-label'>Email</label>
             </div>
-        </header>
+            <div class='grid-colspan-2 form-group'>
+              <input class='form-control' type="password" id="password" name="password" placeholder="Your Password">
+              <label for='password' class='form-label'>Password</label>
+            </div>
+            
+            
+          
+            <input type="reset" value='Cancel'>
+            <input type="submit" value="Login">
+            
+            
+        </form>
+      </div>
     </div>
-    <div>Welcome Back</div>
-    <div>Lets Log you back in</div>
-    <div>Don't have an account? <a href="#">Sign Up</a></div>
-    <form action="/action_page.php">
-        <input type="text" id="email" name="email">
-        <input type="password" id="password" name="password">
-        <input type="reset">
-        <input type="submit" value="Submit">
-    </form>
 </body>
+</div>
 </html>

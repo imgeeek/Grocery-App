@@ -5,30 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
     <link rel="stylesheet" href="stylesheets/style.css">
+    
 </head>
 <body>
     <div class="container">
-        <header>
-            <div class="nav">
-            <ul>        
-                
-                <li>Grocery App</li>
-                <li class="home"><a href="#">Home</a></li>
-                <li class="tutorials"><a class="active" href="#">Register</a></li>
-            </ul>
+      <nav>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#">Grocery App<Span>.</Span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="register.html">Register</a>
+          </li>
+          <li class="nav-item">
+            <a href='login.html'><button class="btn-primary">Log in</button></a>
+          </li>
+        </ul>
+      </nav>
+      <div class='page-content'>
+        <div class='content1'>Start for Free</div>
+        <div class='content2'>Create New Account<span>.</span></div>
+        <div class='content3'>Already a member? <a href="login.html">Login</a></div>
+
+        <form action="/action_page.php">
+            <div class='form-group'>
+              <input class='form-control' type="text" id="firstName" name="firstName" placeholder="Your First Name">
+              <label for='firstName' class='form-label'>First Name</label>
             </div>
-        </header>
+            <div class='form-group'>
+              <input class='form-control' type="text" id="lastName" name="lastName" placeholder="Your Last Name">
+              <label for='lastName' class='form-label'>Last Name</label>
+            </div>
+            <div class='grid-colspan-2 form-group'>
+              <input  class='form-control' type="text" id="email" name="email" placeholder="Your Email">
+              <label for='email' class='form-label'>Email</label>
+            </div>
+            <div class='grid-colspan-2 form-group'>
+              <input class='form-control' type="password" id="password" name="password" placeholder="Your Password">
+              <label for='password' class='form-label'>Password</label>
+            </div>
+            
+            
+          
+            <input type="reset" value='Cancel'>
+            <input type="submit" value="Create account">
+            
+            
+        </form>
+      </div>
     </div>
-    <div>Start for Free</div>
-    <div>Create new account</div>
-    <div>Already a member? <a href="#">Login</a></div>
-    <form action="/action_page.php">
-        <input type="text" id="firstName" name="firstName">
-        <input type="text" id="lastName" name="lastName">
-        <input type="text" id="email" name="email">
-        <input type="password" id="password" name="password">
-        <input type="reset">
-        <input type="submit" value="Submit">
-    </form>
 </body>
+</div>
 </html>
